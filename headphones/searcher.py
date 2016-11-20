@@ -1782,7 +1782,7 @@ def searchTorrent(album, new=False, losslessOnly=False, albumlength=None,
     if headphones.CONFIG.TQUATTRECENTONZE:
         username = headphones.CONFIG.TQUATTRECENTONZE_USER
         password = headphones.CONFIG.TQUATTRECENTONZE_PASSWORD
-        API_URL = "http://api.t411.ch"
+        API_URL = "http://api.t411.li"
         AUTH_URL = API_URL + '/auth'
         DL_URL = API_URL + '/torrents/download/'
         provider = "t411"
